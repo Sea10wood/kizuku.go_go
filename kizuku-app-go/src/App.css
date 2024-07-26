@@ -21,15 +21,18 @@
 
 .fixed-bottom-form {
   position: fixed;
+  items: center;
+  text-align: center;
+  justify:center;
   bottom: 0;
   width: 100%;
-  background: white;
+  background: #ACE2E1;
   padding: 10px;
   border-top: 1px solid #ddd;
 }
 
 .post-form textarea {
-  width: 100%;
+  width: 80%;
   height: 60px;
   margin-bottom: 10px;
 }

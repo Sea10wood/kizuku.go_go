@@ -15,9 +15,9 @@ const PostForm = ({ addPost }) => {
       <textarea
         value={content}
         onChange={(e) => setContent(e.target.value)}
-        placeholder="What's on your mind?"
+        placeholder="Kizuku.go!"
       />
-      <button type="submit">Post</button>
+      <button type="submit">post</button>
     </form>
   );
 };

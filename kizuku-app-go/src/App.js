@@ -5,9 +5,11 @@ import './App.css';
 
 const App = () => {
   const [posts, setPosts] = useState([
-    { id: 1, content: 'This is a mock post 1' },
-    { id: 2, content: 'This is a mock post 2' }
+    { id: 1, content: 'もっく' },
+    { id: 2, content: 'mokumoku' }
   ]);
+
+ 
 
   const addPost = (content) => {
     const newPost = { id: posts.length + 1, content };
